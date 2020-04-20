@@ -2,7 +2,7 @@ class Project
 
 attr_reader :backers, :title
 
-def intialization(title)
+def initialize(title)
   @title = title
   @backers = []
 end
